@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="w-full flex items-center justify-between relative max-w-[1440px] mx-auto ">
         <Link href={"/"} className="flex items-center gap-2">
           <span className="text-3xl md:text-5xl logo transition-transform active:rotate-45">
-            🫣
+            ManojBuilds
           </span>
         </Link>
 

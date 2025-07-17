@@ -15,8 +15,8 @@ import {
   solidity,
   kalamitra,
   pilluai,
-  taskii,
   stack,
+  heysheet,
 } from "@/assets";
 
 type tag = {
@@ -32,14 +32,52 @@ type Project = {
   sourceCodeUrl?: string;
 };
 
-
 export const projects: Project[] = [
+  {
+    name: "Heysheet - Sheetmonkey and Notionmonkey alternative",
+    description:
+      "Submit any form to google sheet and notion. It comes with email and slack integration. ",
+    image: heysheet,
+    liverUrl: "heysheet.in",
+    // sourceCodeUrl: "https://github.com/ManojBuilds/heysheet",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "text-green-400",
+      },
+      {
+        name: "ReactJS",
+        color: "text-red-500",
+      },
+      {
+        name: "Tailwindcss",
+        color: "text-red-500",
+      },
+      {
+        name: "Typescript",
+        color: "text-red-500",
+      },
+      {
+        name: "Dodopayments",
+        color: "text-red-500",
+      },
+      {
+        name: "Google API",
+        color: "text-red-500",
+      },
+      {
+        name: "Notion API",
+        color: "text-red-500",
+      },
+    ],
+  },
+
   {
     name: "Stack Auth Landing Page",
     description: "Landing page of stach auth.",
     image: stack,
     liverUrl: "https://stack-landing-six.vercel.app/",
-    sourceCodeUrl: "https://github.com/Iamsidar07/stack-landing",
+    sourceCodeUrl: "https://github.com/ManojBuilds/stack-landing",
     tags: [
       {
         name: "Nextjs",
@@ -59,49 +97,13 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    name: "Taskii",
-    description: "Taskii-Your ultimate task management app.",
-    image: taskii,
-    liverUrl: "https://task-management-green-tau.vercel.app/",
-    sourceCodeUrl: "https://github.com/Iamsidar07/task_management",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "text-green-400",
-      },
-      {
-        name: "React beatutiful dnd",
-        color: "text-red-500",
-      },
-      {
-        name: "MongoDB",
-        color: "text-pink-400",
-      },
-      {
-        name: "Shadcn",
-        color: "text-indigo-400",
-      },
-      {
-        name: "Zustand",
-        color: "text-green-400",
-      },
-      {
-        name: "ReactJS",
-        color: "text-red-500",
-      },
-      {
-        name: "Tailwindcss",
-        color: "text-red-500",
-      },
-    ],
-  },
+
   {
     name: "Pillu AI: Your ultimate whiteboard on ... Steroids",
     description: "",
     image: pilluai,
     liverUrl: "https://pilluai.onrender.com/",
-    sourceCodeUrl: "https://github.com/iamsidar07/pilluai",
+    sourceCodeUrl: "https://github.com/ManojBuilds/pilluai",
     tags: [
       {
         name: "Langchain",
@@ -162,7 +164,7 @@ export const projects: Project[] = [
     ],
     image: kalamitra,
     sourceCodeUrl:
-      "https://github.com/Iamsidar07/kalamitra-mint-your-nft-with-AI",
+      "https://github.com/ManojBuilds/kalamitra-mint-your-nft-with-AI",
     liverUrl: "https://kalamitra-mint-your-nft-with-ai.vercel.app/",
   },
 
@@ -189,7 +191,7 @@ export const projects: Project[] = [
       },
     ],
     image: chattube,
-    sourceCodeUrl: "https://github.com/Iamsidar07/ChatTube",
+    sourceCodeUrl: "https://github.com/ManojBuilds/ChatTube",
     liverUrl: "",
   },
 
@@ -220,7 +222,7 @@ export const projects: Project[] = [
       },
     ],
     image: snaplink,
-    sourceCodeUrl: "https://github.com/Iamsidar07/snaplink",
+    sourceCodeUrl: "https://github.com/ManojBuilds/snaplink",
     liverUrl: "https://snaplink-xegc.vercel.app/",
   },
   // {
@@ -250,7 +252,7 @@ export const projects: Project[] = [
   //     },
   //   ],
   //   image: carsify,
-  //   sourceCodeUrl: "https://github.com/Iamsidar07/Car-Showcase",
+  //   sourceCodeUrl: "https://github.com/ManojBuilds/Car-Showcase",
   //   liverUrl: "https://car-showcase-gamma-vert.vercel.app/",
   // },
   // {
@@ -280,7 +282,7 @@ export const projects: Project[] = [
   //     },
   //   ],
   //   image: nextgenvisions,
-  //   sourceCodeUrl: "https://github.com/Iamsidar07/NextGenVisions",
+  //   sourceCodeUrl: "https://github.com/ManojBuilds/NextGenVisions",
   //   liverUrl: "https://next-gen-visions.vercel.app/",
   // },
   // {
@@ -310,7 +312,7 @@ export const projects: Project[] = [
   //     },
   //   ],
   //   image: promptly,
-  //   sourceCodeUrl: "https://github.com/Iamsidar07/Promptly",
+  //   sourceCodeUrl: "https://github.com/ManojBuilds/Promptly",
   //   liverUrl: "https://promptly-rust.vercel.app/",
   // },
 ];

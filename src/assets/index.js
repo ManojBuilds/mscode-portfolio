@@ -11,6 +11,7 @@ import kalamitra from "./images/kalamitra.png";
 import taskii from "./images/taskii.png";
 import stack from "./images/stack.png";
 import pilluai from "./images/pilluai.png";
+import heysheet from "./images/heysheet.png";
 // project icons
 
 import companyBg from "./icons/company-bg.svg";
@@ -90,4 +91,5 @@ export {
   pilluai,
   taskii,
   stack,
+  heysheet,
 };

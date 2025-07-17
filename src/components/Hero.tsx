@@ -70,7 +70,7 @@ const Hero = () => {
       />
       <div className="w-full h-[calc(100vh-4rem)]  flex flex-col items-center justify-center gap-4 home_heading">
         <Link
-          href={"https://github.com/iamsidar07"}
+          href={"https://github.com/ManojBuilds"}
           target="_blank"
           className="flex items-center gap-1.5 home_heading px-7 py-3 rounded-full bg-gradient-to-r from-gray-900 to-[#0D1220] border border-gray-800 hover:brightness-110"
         >

@@ -10,16 +10,16 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Manoj Kumar | All rights reserved
         </p>
         <div className="flex items-center gap-4">
-          <Link href={"https://twitter.com/iamsidar07"} target="_blank">
+          <Link href={"https://x.com/ManojBuilds"} target="_blank">
             <AiOutlineTwitter className="w-6 h-6" />
 
           </Link>
-          <Link href={"https://github.com/iamsidar07"} target="_blank">
+          <Link href={"https://github.com/ManojBuilds"} target="_blank">
 
             <AiOutlineGithub className="w-6 h-6" />
           </Link>
           <Link
-            href={"https://www.linkedin.com/in/manoj-kumar-72aa54222/"}
+            href={"https://www.linkedin.com/in/iamsidar"}
             target="_blank"
 
           >
